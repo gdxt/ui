@@ -6,7 +6,7 @@
         <img class="img"
              src="/img/logo.png"
              alt="">
-        <p class="title">{{website.infoTitle}}</p>
+        <p class="title">内蒙古国电信通网络科技有限公司</p>
         <p>©2019 v2.6.0</p>
       </div>
       <div class="login-border">
