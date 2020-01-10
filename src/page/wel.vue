@@ -55,7 +55,18 @@
     computed: {
       ...mapGetters(['website'])
     },
+    mounted() {
+      // this.open();
+    },
     methods: {
+      open() {
+        this.$router.replace({
+          path: this.$router.$avueRouter.getPath({
+            name: "首页",
+            src: "http://www.nmgdxt.com/"
+          }),
+        });
+      },
       getData() {
         if (this.count < this.DATA.length - 1) {
           this.count++

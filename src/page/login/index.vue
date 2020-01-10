@@ -3,11 +3,12 @@
        @keyup.enter.native="handleLogin">
     <div class="login-weaper  animated bounceInDown">
       <div class="login-left">
-        <img class="img"
-             src="/img/logo.png"
-             alt="">
+<!--        <img class="img"-->
+<!--             src="/img/logo.jpg"-->
+<!--             alt="">-->
         <p class="title">内蒙古国电信通网络科技有限公司</p>
-        <p>©2019 v2.6.0</p>
+        <p class="title">后台管理系统</p>
+        <p class="title2">©2020 v1.2.0</p>
       </div>
       <div class="login-border">
         <div class="login-main">
