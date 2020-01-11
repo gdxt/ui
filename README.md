@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/Spring%20Boot-2.2.1.RELEASE-blue.svg" alt="Downloads">
 </p>
  
-**Pig Microservice Architecture**   
+**Microservice Architecture**   
    
 - 基于 Spring Cloud Hoxton.RELEASE 、Spring Security OAuth2 的RBAC权限管理系统  
 - 基于数据驱动视图的理念封装 element-ui，即使没有 vue 的使用经验也能快速上手  
@@ -62,9 +62,9 @@ pig
 
 2. 不接受`功能请求`的 issue，功能请求可能会被直接关闭。  
 
-3. <a href="mailto:pig4cloud@qq.com">pig4cloud@qq.com</a>    
+3. <a href="http://www.nmgdxt.com/">www.nmgdxt.com/</a>    
 
-4. <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1022756131&site=qq&menu=yes"> 个人QQ: 1022756131</a>
+4. <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=136679213&site=qq&menu=yes"> 个人QQ: 136679213</a>
 
 #### 开源协议
 
@@ -72,6 +72,3 @@ pig
 ![](https://images.gitee.com/uploads/images/2019/0330/065147_e07bc645_410595.png)
 
 
-#### 关注我们
-
-![](https://images.gitee.com/uploads/images/2019/0808/102636_659bf088_410595.png)
