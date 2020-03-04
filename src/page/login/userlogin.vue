@@ -57,10 +57,11 @@
 
     </el-form-item>
     <el-form-item>
-      <el-button type="primary"
-                 size="small"
-                 @click.native.prevent="handleLogin"
-                 class="login-submit">登录</el-button>
+<!--      <el-button plain-->
+<!--                 size="small"-->
+<!--                 @click.native.prevent="handleLogin"-->
+<!--                 class="login-submit">登录</el-button>-->
+        <button class="buttonStyle" v-on:mouseover="addActive($event)" v-on:mouseout="removeActive($event)" @click="handleLogin">登录</button>
     </el-form-item>
   </el-form>
 </template>
@@ -111,6 +112,15 @@ export default {
   },
   props: [],
   methods: {
+    addActive($event){
+        $event.currentTarget.className ="buttonAddStyle"
+    },
+    removeActive($event){
+      $event.currentTarget.className ="buttonStyle";
+
+    },
+
+
     refreshCode () {
       this.loginForm.code = ''
       this.loginForm.randomStr = randomLenNum(this.code.len, true)
@@ -140,4 +150,33 @@ export default {
 </script>
 
 <style>
+  .buttonStyle{
+    width: 100%;
+    height: 45px;
+    border: 1px solid #ffffff;
+    background: none;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 30px;
+    font-family: "neo",serif;
+    transition: 0.25s;
+  }
+
+  .buttonAddStyle{
+    width: 100%;
+    height: 45px;
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: #0E9EA9;
+    cursor: pointer;
+    margin-top: 30px;
+    font-family: "neo",serif;
+    transition: 0.25s;
+  }
 </style>
