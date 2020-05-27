@@ -5,7 +5,7 @@
       <div class="login-left">
         <div class = "forImg">
           <img class="img"
-               src="/img/22222.png"
+               src="img/22222.png"
                alt="">
         </div>
         <p class="title">内蒙古国电信通网络科技有限公司</p>

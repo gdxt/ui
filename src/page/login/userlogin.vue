@@ -1,11 +1,10 @@
 <template>
-  <el-form class="login-form"
-           status-icon
+  <el-form class="login-form "
            :rules="loginRules"
            ref="loginForm"
            :model="loginForm"
            label-width="0">
-    <el-form-item prop="username">
+    <el-form-item prop="username" >
       <el-input size="small"
                 @keyup.enter.native="handleLogin"
                 v-model="loginForm.username"
@@ -155,14 +154,14 @@ export default {
     height: 45px;
     border: 1px solid #ffffff;
     background: none;
-    font-size: 18px;
-    letter-spacing: 2px;
+    font-size: 16px;
+    letter-spacing: 4px;
     font-weight: 300;
     color: #ffffff;
-    cursor: pointer;
     margin-top: 30px;
-    font-family: "neo",serif;
+    font-family: Microsoft YaHei,serif;
     transition: 0.25s;
+    border-radius:5px;
   }
 
   .buttonAddStyle{
@@ -170,13 +169,26 @@ export default {
     height: 45px;
     border: 1px solid #ffffff;
     background: #ffffff;
-    font-size: 18px;
-    letter-spacing: 2px;
+    font-size: 16px;
+    letter-spacing: 4px;
     font-weight: 300;
     color: #0E9EA9;
-    cursor: pointer;
     margin-top: 30px;
-    font-family: "neo",serif;
+    font-family: Microsoft YaHei,serif;
     transition: 0.25s;
+    border-radius:5px;
   }
+
+  /*.el-form-item__error {*/
+  /*  color: #FF0000;*/
+  /*  font-size: 13px;*/
+  /*  line-height: 1;*/
+  /*  padding-top: 0px;*/
+  /*  !*position: absolute;*!*/
+  /*  top: 12px;*/
+  /*  left: 35px;*/
+  /*}*/
+  /*.el-form-item.is-error{*/
+  /*  border-color: #FF0000;*/
+  /*}*/
 </style>
